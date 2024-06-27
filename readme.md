@@ -42,11 +42,3 @@ Once Rust and Cargo are installed, follow these steps:
 2. Navigate to the directory where you have saved this project.
 3. Compile the project by running `cargo build`. This command compiles the project and generates an executable in the `target/debug` directory.
 4. To run the application, execute `cargo run` from the project's root directory. This command compiles (if necessary) and runs the application.
-
-### Example Commands
-- To add a todo item: `cargo run add "Your todo item here"`
-- To list all todo items: `cargo run list`
-- To mark a todo item as completed: `cargo run complete <todo_number>`
-- To remove a todo item: `cargo run remove <todo_number>`
-
-Replace `<todo_number>` with the actual number of the todo item you wish to mark as completed or remove.
